@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Lrflandez Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Particle js -->
+    <div id="particles-js" width="100%" height="100%"> <canvas class="particles-js-canvas-el" width="1583" height="497"
+            style="width: 100%; height: 100%;"></canvas></div>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Lee Rommel F.</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span id="im" class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Lee Rommel Santos Flandez</h1>
+                    <h3 id="dev" class="home__education">Software Developer</h3>
+
+                    <div class="home__button">
+                        <a href="#" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About</a>
+
+                    </div>
+                </div>
+
+
+                <div class="home_social">
+                    <a href="https://github.com/Lee-Rommel" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+            
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span id="introl" class="section__subtitle">My Intro</span>
+            <h2 id="aboutl" class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+
+                <img src="assets/img/me.jpg" alt="img-about" class="about__img">
+
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 id="experiencel" class="about__title">Experience</h3>
+                            <span id="expyearl" class="about__subtitle">2+ Years </span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 id="competedl" class="about__title">Completed</h3>
+                            <span id="projectsl" class="about__subtitle">5+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 id="suportel" class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-calendar about__icon'></i>
+                            <h3 id="suportel" class="about__title">Birth</h3>
+                            <span class="about__subtitle">November 19, 2003</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-home about__icon'></i>
+                            <h3 id="suportel" class="about__title">Location</h3>
+                            <span class="about__subtitle">Panabo City, Philippines</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-globe about__icon'></i>
+                            <h3 id="suportel" class="about__title">Citizenship</h3>
+                            <span class="about__subtitle">Filipino</span>
+                        </div>
+                    </div>
+
+                    <p id="descriptionll1" class="about__description">
+                        Hello, my name is Lee Rommel Flandez. I am a software developer focusing on web backend development.
+                        Currently, I work with PHP and JavaScript programming languages. I develop websites and
+                        complete applications using tools like Bootstrap and some frameworks for enhancement.
+                    </p>
+                    <p id="descriptionll2" class="about__description">
+                        I am always looking for new knowledge and challenges. If you have any questions or would like to
+                        get in touch, I would be happy to meet you!
+                    <p>
+
+
+                    <a id="contactl" href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span id="abilityl" class="section__subtitle">My Abilities</span>
+            <h2 id="experienci2l" class="section__title">My Experience</h2>
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 id="languagesl" class="skills__title">Frameworks & Languages</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SQl</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 id="toolsl" class="skills__title">Tools</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Github</h3>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">VSCode</h3>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">DataBase</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Terminal</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!--=============================== Experince============= -->
+
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span id="myport" class="section__subtitle">My Portfolio</span>
+            <h2 id="recent-work" class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+
+
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/project-1.png" class="work__img">
+
+                    <h3 class="work__title">ChipTech E-Commerce Site</h3>
+                    <hr class="gradient-hr">
+
+
+                    <div class="tags-container">
+                        <a class="tag">HTML</a>
+                        <a class="tag">CSS</a>
+                        <a class="tag">Bootstrap</a>
+                        <a class="tag">VSCode</a>
+                    </div>
+                    <hr class="gradient-hr">
+                </div>
+
+
+
+                <div class="work__card mix web">
+                    <img src="assets/img/project-2.png" alt="lading_page image" class="work__img">
+
+                    <h3 class="work__title">RegiScholar System</h3>
+
+                    <hr class="gradient-hr">
+                    <div class="tags-container">
+                        <a class="tag">Java</a>
+                        <a class="tag">SQL</a>
+                        <a class="tag">Database</a>
+                    </div>
+                    <hr class="gradient-hr">
+
+                </div>
+                <div class="work__card mix design">
+                    <img src="assets/img/project-3.png" alt="image acords" class="work__img">
+
+                    <h3 class="work__title">Vehicle Registration Management</h3>
+
+
+                    <hr class="gradient-hr">
+                    <div class="tags-container">
+                        <a class="tag">PHP</a>
+                        <a class="tag">SQL</a>
+                        <a class="tag">Database</a>
+                        <a class="tag">VSCode</a>
+                        <a class="tag">JavaScript</a>
+                    </div>
+                    <hr class="gradient-hr">
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/Others-1.png" alt="image ia" class="work__img">
+
+                    <h3 class="work__title">Others</h3>
+
+                    <hr class="gradient-hr">
+                    <div class="tags-container">
+                        <a class="tag">PHP</a>
+                        <a class="tag">VSCode</a>
+                        <a class="tag">CSS</a>
+                        <a class="tag">SQL</a>
+                        <a class="tag">Database</a>
+                    </div>
+                    <hr class="gradient-hr">
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/Others-2.png" alt="Roberto pc roboto image" class="work__img">
+
+                    <h3 class="work__title">Others</h3>
+
+                    <hr class="gradient-hr">
+                    <div class="tags-container">
+                        <a class="tag">PHP</a>
+                        <a class="tag">VSCode</a>
+                        <a class="tag">CSS</a>
+                        <a class="tag">SQL</a>
+                        <a class="tag">Database</a>
+                    </div>
+                    <hr class="gradient-hr">
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/Others-3.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Others</h3>
+
+                    <hr class="gradient-hr">
+                    <div class="tags-container">
+                        <a class="tag">PHP</a>
+                        <a class="tag">VSCode</a>
+                        <a class="tag">CSS</a>
+                        <a class="tag">SQL</a>
+                        <a class="tag">Database</a>
+                    </div>
+                    <hr class="gradient-hr">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn id="touchl" class="section__subtitle">Get in touch</sapn>
+            <h3 id="contamell" class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 id="talkl" class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">lrflandez@gmail.com</span>
+
+                            <a href="mailto:lrflandez@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-github contact__card-icon'></i>
+                            <h3 class="contact__card-title">Github</h3>
+                            <span class="contact__card-data">Lee-Rommel</span>
+
+                            <a href="https://github.com/Lee-Rommel" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-facebook contact__card-icon'></i>
+                            <h3 class="contact__card-title">Facebook</h3>
+                            <span class="contact__card-data">Lee Rommel Santos Flandez</span>
+
+                            <a href="https://www.facebook.com/leerommel.flandez.9?mibextid=ZbWKwL" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 id="writeme" class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="https://api.staticforms.xyz/submit" class="contact__form" id="contact-form"
+                        method="POST">
+                        <div class="contact__form-div">
+
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" name="name" placeholder="Enter name" class="contact__form-input"
+                                id="name" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Email</label>
+                            <input type="email" name="email" placeholder="Enter email" class="contact__form-input"
+                                id="email" required>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input" required></textarea>
+                        </div>
+
+                        <button type="submit" class="button" id="submit">
+                            Send Message
+                        </button>
+
+                        <input type="hidden" name="accessKey" value="bb1be617-4b46-40c7-b50a-3653d0431faa">
+                        <input type="hidden" name="redirectTo"
+                            value="https://wendellast-portfolio.vercel.app/assets/pages/success.html">
+                    </form>
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 id="awbo" class="footer__title">All Will Be One</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a id="homel" href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a id="aboutl2" href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a id="skills2l" href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a id="worrk2" href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a id="contact2k" href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://github.com/Lee-Rommel" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/leerommel.flandez.9?mibextid=ZbWKwL" target="_blank" class="footer__social-link">
+                         <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="mailto:lrflandez@gmail.com" target="_blank" class="footer__social-link">
+                        <i class='bx bx-mail-send footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2024 Lee Rommel F.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <!--Backgroud-->
+    <script src="./assets/particles.js/particles.js"></script>
+    <script src="./assets/particles.js/demo/js/app.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/music.js"></script>
+
+    <!-- Deploy-vercel -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
+    <script>
+        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+
+
+</body>
+
+</html>
